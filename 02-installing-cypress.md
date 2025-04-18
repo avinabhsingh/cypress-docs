@@ -147,27 +147,78 @@ npm install -g cypress
 
 After successfully installing Cypress, follow the steps below to open and configure it for the first time:
 
-#### a. Launch Cypress Test Runner
+##### a. Open Cypress from the Terminal 
 
-1. Open the terminal in your project directory and execute:
-   ```bash
-   npx cypress open
-   ```
+In your project root directory, open the terminal and run the following command:
 
-2. This will open the Cypress User Interface (UI).
+```bash
+npx cypress open
+```
 
-You’ll see two options: E2E Testing and Component Testing — both are initially not configured.
+This command lunches the Cypress User Interface (UI).
+
+##### b. Choose Testing Type
+
+You will be presented with two testing types:
+
+- E2E Testing (End-to-End)
+- Component Testing
+both with initially show as not configured.
 
 ![Cypress CLI](images/cypress-cli.png)
 
-3. Click on **E2E Testing**.  
+Click on **E2E Testing** to proceed.  
 
-4. You should now see the configuration files listed. Also, a cypress folder will be automatically created in your project directory.
+##### c. Auto-Configuration 
+   
+Cypress will scan your project and show a list of configuration files. It will also automatically create a `/cypress` folder in your project root.
 
-5. Click on the **Continue** button to let Cypress auto-configure your project.
+Click on **Continue** to allow Cypress to auto-configure your project.
 
 ![Cypress Auto Configuration](images/cypress-auto-config.png)
 
-6. Once configuration is done, select a browser of your choice and click **Start E2E Testing**.
+##### d. Browser Selection
+
+After configuration, you'll be prompted to select a browser fro testing. 
+Choose your preffered browser and click **Start E2E Testing**.
 
 ![Browser Selection](images/browser-selection.png)
+
+##### e. Create a **New Spec File** 
+
+In the Cypress UI:
+
+- Click on Create new spec.
+  
+![New Spec File](images/create-new-spec.png)
+
+- Enter a name for your spec file (e.g., `demo_file.cy.js`).
+
+- Click the **Create Spec** button.
+
+![Spec File Name](images/spec-file-name.png)
+
+> **Note**: Spec files should use the `.cy.js` extension.
+
+##### f. Run the Sample Spec
+   
+Once the spec is created:
+
+- Cypress will populate it with a default sample test.
+
+- Click on **Okay, run the spec**.
+
+![Run Spec File](images/run-spec-file.png)
+
+
+**✅ Expected Output**
+
+If everything is configured correctly, you’ll see the sample spec file run successfully, showing:
+
+- **Status**: Pass or Fail for each test.
+
+- **Run Time**: Duration of the test run.
+
+- The newly created spec file (`demo_file.cy.js`) will be visible in the `/cypress/e2e/` directory.
+
+![Run Output](images/sample-run-output.png)
