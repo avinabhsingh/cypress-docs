@@ -66,7 +66,7 @@ This will prompt you to provide basic information for your project. You'll be as
 - **Author Name**
     You can enter your name or leave it blank.
 
-> **Note**: You can leave these fields empty or accept the default values by pressing Enter.
+> **Note:** You can leave these fields empty or accept the default values by pressing Enter.
  
 At the end of the process, you will be asked to confirm the details you entered. Type 'yes' and press Enter to proceed.
 
@@ -139,7 +139,7 @@ This command installs Cypress globally within the user's system.
 npm install -g cypress
 ```
 
-> **Note**: Installing Cypress globally is not recommended as each project can have its own version of Cypress with its own set of dependencies, thus avoiding potential conflicts between projects. Global installations are generally reserved for tools that are used across multiple projects and don't require project-specific dependencies or configurations.
+> **Note:** Installing Cypress globally is not recommended as each project can have its own version of Cypress with its own set of dependencies, thus avoiding potential conflicts between projects. Global installations are generally reserved for tools that are used across multiple projects and don't require project-specific dependencies or configurations.
 
 ---
 
@@ -198,7 +198,7 @@ In the Cypress UI:
 
 ![Spec File Name](images/spec-file-name.png)
 
-> **Note**: Spec files should use the `.cy.js` extension.
+> **Note:** Spec files should use the `.cy.js` extension.
 
 ##### f. Run the Sample Spec
    
