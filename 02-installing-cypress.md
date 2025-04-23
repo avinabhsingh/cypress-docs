@@ -14,14 +14,6 @@ Make sure the following tools are installed and configured on your system before
 - **Visual Studio Code (VSCode)**  
   Install the stable version of [VSCode](https://code.visualstudio.com/).
 
-### ⚠️ Common Issue: `chcp` Variable Not Found
-
-If you encounter an error related to the `chcp` command not being recognized in the terminal:
-
-1. Search for `chcp.exe` on your system (usually in `C:\Windows\System32\`).
-2. Copy its path.
-3. Add the copied path to your system's **Environment Variables > Path** section.
-
 ---
 
 ## 🖥️ 2. Setting Up the Project in VSCode
@@ -41,8 +33,6 @@ Launch VSCode and open the newly created folder:
 
 Access the terminal within VSCode:
 - `Terminal` > `New Terminal`
-
-![Open Terminal in VSCode](images/new-terminal.png)
 
 #### d. Initialize npm
 
@@ -86,6 +76,16 @@ If the package.json file is not created:
 - Check for any errors in the terminal or console.
 - Ensure you’re in the correct directory and the terminal has appropriate permissions.
 
+---
+
+### ⚠️ Common Issue: `chcp` Variable Not Found
+
+If you encounter an error related to the `chcp` command not being recognized in the terminal:
+
+1. Search for `chcp.exe` on your system (usually in `C:\Windows\System32\`).
+2. Copy its path.
+3. Add the copied path to your system's **Environment Variables > Path** section.
+   
 ---
 
 #### 📄 [Question: Why we create ‘package.json’ file?]
