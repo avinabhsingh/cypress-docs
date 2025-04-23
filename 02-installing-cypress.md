@@ -56,18 +56,20 @@ This will prompt you to provide basic information for your project. You'll be as
 - **Author Name**
     You can enter your name or leave it blank.
 
-> **Note:** You can leave these fields empty or accept the default values by pressing Enter.
- 
-At the end of the process, you will be asked to confirm the details you entered. Type 'yes' and press Enter to proceed.
+At the end of the setup, you’ll be prompted to review and confirm the details you’ve entered. Type `yes` and press **Enter** to continue.
+
+If you prefer to skip the prompts and use the default settings, you can use:
+
+```bash
+npm init -y
+```
+
+This will automatically generate a package.json file with default values.
 
 #### e. Verify `package.json` Creation
 After completing the above steps, a package.json file should be created in your project directory. This file contains essential metadata about your project and its dependencies.
 
 ![Verify package.json Creation](images/Verify-package.json-creation.png)
-
-Below is a sample view of `package.json` file.
-
-![package.json File](images/package.json-file-view.png)
 
 #### f. Troubleshooting
 If the package.json file is not created:
@@ -129,7 +131,6 @@ This is a standard directory in all Node.js projects. It contains all the npm pa
 This file locks the specific versions of installed packages, ensuring consistent installations across different environments and helping avoid version conflicts. Additionally, it speeds up dependency installation by providing npm with pre-determined versions, reducing resolution time.
 
 ![Cypress Installation Command](images/cypress-installing.png)
-
 
 #### ii. Global Installation:
 
