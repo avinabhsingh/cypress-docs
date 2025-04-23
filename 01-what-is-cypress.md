@@ -13,10 +13,10 @@ Unlike traditional testing tools, Cypress executes directly in the browser along
 ## ✨ Key Features of Cypress
 
 #### ✅ 1. End-to-End Testing Made Easy
-Cypress is purpose-built for end-to-end testing — simulating user actions like clicks, inputs, and navigation — ensuring your application behaves as expected.
+Cypress simplifies end-to-end testing by simulating real user interactions such as clicks, form inputs, navigation, and much more. Helping ensure your application functions correctly.
 
 #### ✅ 2. JavaScript-Based Testing
-Tests are written in **JavaScript or TypeScript**, making Cypress accessible to front-end developers using frameworks like **React**, **Angular**, or **Vue**.
+Tests are written in **JavaScript** or **TypeScript**, making Cypress accessible to front-end developers using frameworks like **React**, **Angular**, or **Vue**.
 
 #### ✅ 3. Real-Time Reloading
 Cypress provides real-time reloading of tests and application code  instantly as you save changes, boosting your development feedback loop and overall productivity.
