@@ -2,11 +2,11 @@
 
 `cypress-mochawesome-reporter` is a plugin for Cypress that generates **detailed and visually appealing HTML reports** using the Mochawesome reporting library. It includes:
 
-- ✅ **Test outcomes**: See which tests passed and which failed.
-- 🕒 **Duration of tests**: Know how long each test took to complete.
-- ❌ **Error messages**: Get detailed error messages with stack traces.
-- 📁 **Support for parallel execution**: This helps generate reports for tests run in parallel.
-- 🎨 **Customizable report layout**: Modify the appearance and structure of the generated report.
+- **Test outcomes**: See which tests passed and which failed.
+- **Duration of tests**: Know how long each test took to complete.
+- **Error messages**: Get detailed error messages with stack traces.
+- **Support for parallel execution**: This helps generate reports for tests run in parallel.
+- **Customizable report layout**: Modify the appearance and structure of the generated report.
 
 This plugin greatly enhances **test result analysis** and **reporting** for Cypress test suites.
 
@@ -42,7 +42,9 @@ This specifies that Cypress should use the `cypress-mochawesome-reporter` plugin
 
 ### 3. Modify `e2e.js` for Reporter Setup
 
-By default, Cypress uses `mochawesome-report-generator`. To switch to `cypress-mochawesome-reporter`, follow these steps:
+By default, Cypress uses the built-in `Mocha` reporter (spec). To generate rich HTML reports, we install and configure the `cypress-mochawesome-reporter` plugin, which internally uses `mochawesome` and `mochawesome-report-generator`.
+
+To switch to `cypress-mochawesome-reporter`, follow these steps:
 
 #### a. Modify `e2e.js` File
 
