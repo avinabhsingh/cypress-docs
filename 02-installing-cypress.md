@@ -67,16 +67,9 @@ npm init -y
 This will automatically generate a package.json file with default values.
 
 #### e. Verify `package.json` Creation
-After completing the above steps, a package.json file should be created in your project directory. This file contains essential metadata about your project and its dependencies.
+After completing the above steps, a `package.json` file should be created in your project directory. This file contains essential metadata about your project and its dependencies.
 
 ![Verify package.json Creation](images/Verify-package.json-creation.png)
-
-#### f. Troubleshooting
-If the package.json file is not created:
-
-- Repeat the above steps again.
-- Check for any errors in the terminal or console.
-- Ensure you’re in the correct directory and the terminal has appropriate permissions.
 
 ---
 
@@ -116,7 +109,7 @@ Once your `package.json` is created, navigate back to terminal and execute the f
 
 #### i. Local Installation:
 
-This command installs Cypress locally as a development dependency for the particular project.
+Below command installs Cypress locally as a development dependency for the particular project:
 
 ```bash
 npm install cypress --save-dev
@@ -134,7 +127,7 @@ This file locks the specific versions of installed packages, ensuring consistent
 
 #### ii. Global Installation:
 
-This command installs Cypress globally within the user's system. 
+Below command installs Cypress globally within the user's system: 
 
 ```bash
 npm install -g cypress
@@ -210,7 +203,6 @@ Once the spec is created:
 - Click on **Okay, run the spec**.
 
 ![Run Spec File](images/run-spec-file.png)
-
 
 **✅ Expected Output**
 
